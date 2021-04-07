@@ -92,14 +92,14 @@ sudo systemctl enable docker
 ### 正式版
 ```shell
 cd aurora
-wget https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/docker-compose.yml -O docker-compose.yml
+wget https://raw.githubusercontent.com/cmz0228/deploy/main/docker-compose.yml -O docker-compose.yml
 docker-compose pull && docker-compose down --remove-orphans && docker-compose up -d
 ```
 
 ### 测试版
 ```shell
 cd aurora
-wget https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/docker-compose-dev.yml -O docker-compose.yml
+wget https://raw.githubusercontent.com/cmz0228/deploy/main/docker-compose-dev.yml -O docker-compose.yml
 docker-compose pull && docker-compose down --remove-orphans && docker-compose up -d
 ```
 
