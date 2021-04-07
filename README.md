@@ -66,8 +66,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 mkdir -p aurora
 cd aurora
 # 如果是测试版
-# wget https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/docker-compose-dev.yml -O docker-compose.yml
-wget https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/docker-compose.yml -O docker-compose.yml
+# wget https://raw.githubusercontent.com/cmz0228/deploy/main/docker-compose-dev.yml -O docker-compose.yml
+wget https://raw.githubusercontent.com/cmz0228/deploy/main/docker-compose.yml -O docker-compose.yml
 docker-compose up -d
 # 创建管理员用户
 docker-compose exec backend python app/initial_data.py
